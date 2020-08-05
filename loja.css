@@ -10,11 +10,11 @@ font-family: 'Zilla Slab', serif; */
 /* selected bg: #FDECE1 */
 /* selected accent: #FA9F62 */
 
-/* hides header, at least for now */
-
+/*
 #upper-header, #header, #menu-top, .fly-header-mobile, .fly-header {
 	display: none !important;
 }
+*/
 
 
 /* body fade in */
