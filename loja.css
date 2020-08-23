@@ -16,10 +16,6 @@ font-family: 'Zilla Slab', serif; */
 }
 */
 
-#footer .row.newsletter {
-	display: none !important;
-}
-
 
 /* body fade in */
 
@@ -1296,4 +1292,21 @@ body[data-url="carrinho-compras"] #innerTabelaFrete tr:last-child td {
 #innerCarrinhoTotalizador .table-cart.table.vab th {
 	padding-top: 8px !important;
 	padding-bottom: 8px !important;
+}
+
+/* Buttons */
+
+button.success span, .solid-button.success span {
+	color: #fff !important;
+}
+
+
+/* footer */
+
+#footer {
+	padding-top: 48px !important;
+}
+
+#footer .row.newsletter {
+	display: none !important;
 }
