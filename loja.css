@@ -43,7 +43,7 @@ body {
 
 /* header */
 
-#upper-header, .fly-header-mobile, .fly-header, #menu-top {
+.fly-header-mobile, .fly-header, #menu-top {
 	display: none !important;
 }
 
@@ -58,6 +58,7 @@ body {
 
 #header .logo-image {
 	height: auto !important;
+	width: auto !important;
 }
 
 /* carrinho */
@@ -87,6 +88,7 @@ body {
     font-size: 17px;
 }
 #header .col-11.col-cart a.my-account {
+	display: none !important;
 	width: auto !important;
 	font-size: 14px;
 	background-image: none !important;
