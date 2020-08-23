@@ -43,29 +43,96 @@ body {
 
 /* header */
 
+#upper-header {
+	background: #ECEBEA !important;
+	display: block !important;
+}
+#upper-header .wrapper {
+	max-width: 1248px !important;
+	padding-left: 24px !important;
+	padding-right: 24px !important;
+}
+.wrapper#upper-header * {
+	color: #62636B !important;
+	font-size: 14px !important;
+}
+#upper-header .col-10 {
+	display: inline !important;
+	float: none !important;
+	width: auto !important;
+}
+#upper-header .col-8 {
+	display: none !important;
+}
+#upper-header .user-actions .item {
+	border-right: none !important;
+}
+
 .fly-header-mobile, .fly-header, #menu-top {
 	display: none !important;
 }
 
-#header, #header > .row {
+#header {
+	height: auto !important;
+	width: auto !important;
+	padding-top: 16px !important;
+	padding-bottom: 16px !important;
+	box-shadow: none !important;
+}
+#header > .row {
 	height: auto !important;
 	max-width: 1248px !important;
+	padding-left: 24px !important;
+	padding-right: 24px !important;
+	width: auto !important;
 }
 
 #header .col-3.col-search-box {
 	display: none !important;
 }
 
+#header .col-logo {
+	padding: 0 !important;
+	float: left !important;
+	width: auto !important;
+}
+#header .row-header-items {
+	padding: 0 !important;
+	float: right !important;
+	width: auto !important;
+}
+
 #header .logo-image {
 	height: auto !important;
 	width: auto !important;
+	visibility: visible !important;
+	margin-top: 0 !important;
+}
+#header .logo-image a img {
+	display: block !important;
+	margin-top: 0 !important;
+	width: 126px !important;
+}
+
+#header .logo-image a img::after {
+	content: "← Voltar ao site";	
 }
 
 /* carrinho */
 
+#header .row-header-items {
+	margin-top: 0 !important;
+}
+
+#header .row-header-items .row-last {
+	padding: 0 !important;
+}
+
 #header .col-11.col-cart {
 	width: auto !important;
 	float: right !important;
+	margin-top: 8px !important;
+	display: block !important;
 }
 
 #header .col-11.col-cart strong.willhide {
@@ -96,6 +163,10 @@ body {
 }
 #header .col-11.col-cart a.my-account::after {
 	content: "Fazer login";
+}
+
+#menu-subloja {
+	display: none !important;
 }
 
 /* main containers */
