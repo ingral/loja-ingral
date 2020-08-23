@@ -16,6 +16,10 @@ font-family: 'Zilla Slab', serif; */
 }
 */
 
+#footer .row.newsletter {
+	display: none !important;
+}
+
 
 /* body fade in */
 
@@ -37,13 +41,69 @@ body {
 	display: none !important;
 }
 
+/* header */
+
+#upper-header, .fly-header-mobile, .fly-header, #menu-top {
+	display: none !important;
+}
+
+#header, #header > .row {
+	height: auto !important;
+	max-width: 1248px !important;
+}
+
+#header .col-3.col-search-box {
+	display: none !important;
+}
+
+#header .logo-image {
+	height: auto !important;
+}
+
+/* carrinho */
+
+#header .col-11.col-cart {
+	width: auto !important;
+	float: right !important;
+}
+
+#header .col-11.col-cart strong.willhide {
+	display: none !important;
+}
+#header .col-11.col-cart #innerInfoCarrinhoTopo .willhide {
+	display: none !important;
+}
+
+#header .col-11.col-cart a {
+	display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+    padding-top: 0 !important;
+    padding-left: 44px;
+    padding-right: 16px;
+    background-position: 12px center;
+    border-radius: 100px;
+    font-size: 17px;
+}
+#header .col-11.col-cart a.my-account {
+	width: auto !important;
+	font-size: 14px;
+	background-image: none !important;
+	padding-left: 16px !important;
+}
+#header .col-11.col-cart a.my-account::after {
+	content: "Fazer login";
+}
+
+/* main containers */
+
 #main {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
 #breadcrumbs {
-	background: red;
 	display: none;
 }
 
