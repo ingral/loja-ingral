@@ -1,6 +1,6 @@
 var url = window.location.pathname;
 var page = url.split('/');
-var homeUrl = "https://loja-bd5244.webflow.io/";
+var homeUrl = "https://ingral.com.br/";
 
 document.querySelector('body').dataset.url = page[2]
 
